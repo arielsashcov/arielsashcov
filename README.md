@@ -4,7 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-informational?style=flat-square&logo=LinkedIn)](https://www.linkedin.com/in/arielsashcov)
 [![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=flat-square&logo=LeetCode&logoColor=white)](https://leetcode.com/fella7ena/)
-[![LeetCode](https://img.shields.io/badge/DevTo-black?style=flat-square&logo=DevTo&logoColor=white)](https://dev.to/arielsashcov)
+[![LeetCode](https://img.shields.io/badge/DevTo-black?style=flat-square&logo=dev.to&logoColor=white)](https://dev.to/arielsashcov)
 
 ![Ariel's github stats](https://github-readme-stats.vercel.app/api?username=arielsashcov&count_private=true&show_icons=true&hide=contribs,prs,issues)
 
