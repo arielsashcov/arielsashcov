@@ -1,6 +1,6 @@
 # Welcome to my vault
 
-## B.Eng Software Engineering at École de technologie supérieure (ÉTS)
+**B.Eng Software Engineering at École de technologie supérieure (ÉTS)**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-informational?style=for-the-badge&logo=LinkedIn)](https://www.linkedin.com/in/arielsashcov)
 [![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/fella7ena/)
