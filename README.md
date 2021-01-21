@@ -1,7 +1,9 @@
 # Welcome to my vault
 
-- B.Eng Software Engineering at École de technologie supérieure (ÉTS)
-- [Follow me on LinkedIn](https://linkedin.com/in/arielsashcov)
+## B.Eng Software Engineering at École de technologie supérieure (ÉTS)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-informational?style=for-the-badge&logo=LinkedIn)](https://www.linkedin.com/in/arielsashcov)
+[![LeetCode](https://img.shields.io/badge/LeetCode-orange?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/fella7ena/)
 
 ![Ariel's github stats](https://github-readme-stats.vercel.app/api?username=arielsashcov&count_private=true&show_icons=true&hide=contribs,prs,issues)
 
