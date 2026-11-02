@@ -7,7 +7,7 @@ Software Engineer at [EMERES](https://www.emeres.com), working on **Cirrus**, a 
 - **Unit tracking:** GPS/AVL ingestion, live unit positions and incident playback maps
 - **Platform:** GraphQL services and React micro-frontends, run in Docker and traced with OpenTelemetry
 
-### Tech I work with today
+### Tech I work with
 
 **Languages:**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
