@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="206" viewBox="0 0 350 206" role="img" aria-labelledby="title">
+<title id="title">Most used languages</title>
+<style>
+text{font-family:'Segoe UI',Ubuntu,Sans-Serif}
+.title{font-size:18px;font-weight:600;fill:#2f80ed}
+.sub{font-size:12px;fill:#6a737d}
+.lang{font-size:13px;fill:#434d58}
+.muted{fill:#6a737d}
+</style>
+<rect x="0.5" y="0.5" rx="4.5" width="349" height="205" fill="#fffefe" stroke="#e4e2e2"/>
+<text x="25" y="35" class="title">Most used languages</text>
+<text x="25" y="56" class="sub">Lines changed in my commits, private repos included</text>
+<clipPath id="bar"><rect x="25" y="72" width="300" height="8" rx="4"/></clipPath>
+<g clip-path="url(#bar)"><rect x="25.00" y="72" width="78.71" height="8" fill="#3572A5"/><rect x="103.71" y="72" width="66.69" height="8" fill="#f1e05a"/><rect x="170.40" y="72" width="35.87" height="8" fill="#178600"/><rect x="206.26" y="72" width="33.50" height="8" fill="#e34c26"/><rect x="239.76" y="72" width="31.16" height="8" fill="#00ADD8"/><rect x="270.92" y="72" width="30.47" height="8" fill="#b07219"/><rect x="301.38" y="72" width="15.97" height="8" fill="#3178c6"/><rect x="317.35" y="72" width="7.65" height="8" fill="#DA5B0B"/></g>
+<g transform="translate(25 108)"><circle cx="5" cy="-4" r="5" fill="#3572A5"/><text x="16" class="lang">Python <tspan class="muted">26.2%</tspan></text></g>
+<g transform="translate(175 108)"><circle cx="5" cy="-4" r="5" fill="#f1e05a"/><text x="16" class="lang">JavaScript <tspan class="muted">22.2%</tspan></text></g>
+<g transform="translate(25 132)"><circle cx="5" cy="-4" r="5" fill="#178600"/><text x="16" class="lang">C# <tspan class="muted">12.0%</tspan></text></g>
+<g transform="translate(175 132)"><circle cx="5" cy="-4" r="5" fill="#e34c26"/><text x="16" class="lang">HTML <tspan class="muted">11.2%</tspan></text></g>
+<g transform="translate(25 156)"><circle cx="5" cy="-4" r="5" fill="#00ADD8"/><text x="16" class="lang">Go <tspan class="muted">10.4%</tspan></text></g>
+<g transform="translate(175 156)"><circle cx="5" cy="-4" r="5" fill="#b07219"/><text x="16" class="lang">Java <tspan class="muted">10.2%</tspan></text></g>
+<g transform="translate(25 180)"><circle cx="5" cy="-4" r="5" fill="#3178c6"/><text x="16" class="lang">TypeScript <tspan class="muted">5.3%</tspan></text></g>
+<g transform="translate(175 180)"><circle cx="5" cy="-4" r="5" fill="#DA5B0B"/><text x="16" class="lang">Jupyter Notebook <tspan class="muted">2.5%</tspan></text></g>
+</svg>
