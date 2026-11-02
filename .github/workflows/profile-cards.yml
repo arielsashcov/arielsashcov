@@ -1,0 +1,54 @@
+name: Profile cards
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+
+# STATS_TOKEN is a classic PAT (repo, read:user) so private repositories count.
+# It is only handed to the pinned action and the local script below.
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&include_all_commits=true&show_icons=true&hide_rank=true
+          path: profile/stats-light.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          core_version: 2.2.1
+          fail_on_error: true
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&include_all_commits=true&show_icons=true&hide_rank=true&theme=github_dark&border_color=30363d
+          path: profile/stats-dark.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          core_version: 2.2.1
+          fail_on_error: true
+
+      - name: Languages card
+        run: node scripts/commit-languages.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update profile cards" || exit 0
+          git push
