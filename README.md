@@ -3,7 +3,7 @@
 Software engineer at [EMERES](https://www.emeres.com), working on **Cirrus**, a computer-aided dispatch (CAD) platform for law enforcement, fire and EMS agencies. Most of my work is on the backend and platform side:
 
 - **Identity and access:** single sign-on with Keycloak (OIDC, SAML / Entra ID, LDAP / Active Directory) and MFA for dispatchers and responders
-- **Audit logging:** an event pipeline from NATS JetStream into ClickHouse, designed with CJIS requirements in mind
+- **Audit logging:** an event pipeline from NATS JetStream into ClickHouse, designed with FBI CJIS requirements in mind
 - **Unit tracking:** GPS/AVL ingestion, live unit positions and incident playback maps
 - **Platform:** GraphQL services and React micro-frontends, run in Docker and traced with OpenTelemetry
 
@@ -43,5 +43,3 @@ Software engineer at [EMERES](https://www.emeres.com), working on **Cirrus**, a 
     <img alt="Most used languages by lines changed in my commits" src="profile/languages-light.svg">
   </picture>
 </p>
-
-<sub>Most of my work is in private repositories, so these cards are generated daily by a workflow in this repo with a token that can read them. Only totals are published.</sub>
