@@ -1,6 +1,6 @@
 ## Hi, I'm Ariel
 
-Software engineer at [EMERES](https://www.emeres.com), working on **Cirrus**, a computer-aided dispatch (CAD) platform for law enforcement, fire and EMS agencies. Most of my work is on the backend and platform side:
+Software Engineer at [EMERES](https://www.emeres.com), working on **Cirrus**, a computer-aided dispatch (CAD) platform for law enforcement, fire and EMS agencies. Most of my work is on the backend and platform side:
 
 - **Identity and access:** single sign-on with Keycloak (OIDC, SAML / Entra ID, LDAP / Active Directory) and MFA for dispatchers and responders
 - **Audit logging:** an event pipeline from NATS JetStream into ClickHouse, designed with FBI CJIS requirements in mind
