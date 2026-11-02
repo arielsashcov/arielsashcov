@@ -11,8 +11,6 @@ permissions:
 concurrency:
   group: profile-cards
 
-# STATS_TOKEN is a classic PAT (repo, read:user) so private repositories count.
-# It is only handed to the pinned action and the local script below.
 jobs:
   cards:
     runs-on: ubuntu-latest
@@ -40,7 +38,7 @@ jobs:
           fail_on_error: true
 
       - name: Languages card
-        run: node scripts/commit-languages.mjs
+        run: node scripts/commit-languages.js
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
           GITHUB_USER: ${{ github.repository_owner }}
